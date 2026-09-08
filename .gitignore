@@ -23,6 +23,10 @@
 # misc
 .DS_Store
 *.pem
+desktop.ini
+
+# design reference screenshots (not part of the site)
+/Inspiration/
 
 # debug
 npm-debug.log*

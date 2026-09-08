@@ -1,0 +1,15 @@
+<svg viewBox="0 0 560 130" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="logoTitle">
+  <title id="logoTitle">CB Connexions — Business Consulting</title>
+  <g transform="translate(0,10)">
+    <path d="M55,55
+             C55,30 95,30 95,55
+             C95,80 55,80 55,55
+             C55,30 15,30 15,55
+             C15,80 55,80 55,55 Z"
+          fill="none" stroke="#7C2734" stroke-width="11" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="15" cy="55" r="5" fill="#1B1A18"/>
+    <circle cx="95" cy="55" r="5" fill="#1B1A18"/>
+  </g>
+  <text x="125" y="66" font-family="'Instrument Serif', Georgia, serif" font-size="44" fill="#1B1A18">CB Connexions</text>
+  <text x="127" y="94" font-family="'Inter', Arial, sans-serif" font-size="13" letter-spacing="3.5" fill="#5C574F">BUSINESS CONSULTING</text>
+</svg>
