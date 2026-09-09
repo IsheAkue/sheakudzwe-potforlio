@@ -40,6 +40,10 @@ export default function ProjectPanel({ project }: { project: Project }) {
               </li>
             ))}
           </ul>
+          <span className="inline-flex items-center gap-2 font-mono text-[10px] uppercase tracking-widest text-[var(--panel-accent)] transition-transform duration-300 group-hover:translate-x-1">
+            View project
+            <span aria-hidden="true">→</span>
+          </span>
         </div>
       </div>
     </Link>

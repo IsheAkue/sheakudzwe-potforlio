@@ -165,17 +165,6 @@ export default function MobileMenu({
       </nav>
 
       <div className="flex flex-col gap-6">
-        <div className="flex flex-col gap-3 font-mono text-sm text-[var(--color-fg-muted)]">
-          <a href={`mailto:${site.email}`} className="w-fit hover:text-[var(--color-accent)]">
-            {site.email}
-          </a>
-          <div className="flex gap-4">
-            <a href={site.facebook} target="_blank" rel="noreferrer" className="hover:text-[var(--color-accent)]">
-              Facebook
-            </a>
-          </div>
-        </div>
-
         <a
           href={site.whatsappHref}
           target="_blank"

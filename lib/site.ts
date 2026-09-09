@@ -8,7 +8,7 @@ export const site = {
   github: "https://github.com/IsheAkue",
   linkedin: "https://www.linkedin.com/in/sheakudzwe-moyo/",
   facebook: "https://www.facebook.com/profile.php?id=61594055318867",
-  url: "https://sheakudzwemoyo.dev",
+  url: "https://sheakudzwe-potforlio.pages.dev",
   formspreeUrl: "https://formspree.io/f/xgaenvdw",
   description:
     "Sheakudzwe Moyo is a web developer building modern, responsive business websites and interactive digital experiences with Next.js, React, Tailwind CSS and GSAP.",
