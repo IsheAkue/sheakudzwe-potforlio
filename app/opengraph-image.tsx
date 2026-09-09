@@ -29,21 +29,23 @@ export default async function Image() {
             textTransform: "uppercase",
           }}
         >
-          {site.role} — Zimbabwe
+          Web Developer — Based in Zimbabwe
         </div>
         <div
           style={{
             display: "flex",
             flexDirection: "column",
-            fontSize: 96,
-            lineHeight: 1.05,
+            fontSize: 54,
+            lineHeight: 1.2,
             color: "#221d18",
             fontWeight: 600,
           }}
         >
-          <span>I build the sites</span>
-          <span style={{ color: "#6b6255" }}>real businesses</span>
-          <span style={{ color: "#a8501c", fontStyle: "italic" }}>run on.</span>
+          <span>I build websites</span>
+          <span style={{ color: "#6b6255" }}>and design digital experiences</span>
+          <span style={{ color: "#a8501c", fontStyle: "italic" }}>
+            that businesses run and rely on.
+          </span>
         </div>
         <div style={{ display: "flex", fontSize: 26, color: "#8a8072" }}>
           {site.name}
