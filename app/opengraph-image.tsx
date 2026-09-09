@@ -14,41 +14,47 @@ export default async function Image() {
           height: "100%",
           display: "flex",
           flexDirection: "column",
-          justifyContent: "space-between",
+          alignItems: "center",
+          justifyContent: "center",
           background: "#f7efe3",
-          padding: "80px",
           fontFamily: "Arial, Helvetica, sans-serif",
         }}
       >
         <div
           style={{
             display: "flex",
-            fontSize: 28,
-            color: "#a8501c",
-            letterSpacing: 4,
-            textTransform: "uppercase",
+            fontSize: 200,
+            fontWeight: 700,
+            letterSpacing: -6,
+            lineHeight: 1,
           }}
         >
-          Web Developer — Based in Zimbabwe
+          <span style={{ color: "#a8501c" }}>S</span>
+          <span style={{ color: "#221d18" }}>Z</span>
+          <span style={{ color: "#a8501c" }}>M</span>
         </div>
         <div
           style={{
             display: "flex",
-            flexDirection: "column",
-            fontSize: 54,
-            lineHeight: 1.2,
-            color: "#221d18",
+            fontSize: 42,
             fontWeight: 600,
+            color: "#221d18",
+            marginTop: 20,
           }}
         >
-          <span>I build websites</span>
-          <span style={{ color: "#6b6255" }}>and design digital experiences</span>
-          <span style={{ color: "#a8501c", fontStyle: "italic" }}>
-            that businesses run and rely on.
-          </span>
-        </div>
-        <div style={{ display: "flex", fontSize: 26, color: "#8a8072" }}>
           {site.name}
+        </div>
+        <div
+          style={{
+            display: "flex",
+            fontSize: 24,
+            color: "#a8501c",
+            letterSpacing: 4,
+            textTransform: "uppercase",
+            marginTop: 14,
+          }}
+        >
+          Web Developer — Based in Zimbabwe
         </div>
       </div>
     ),
